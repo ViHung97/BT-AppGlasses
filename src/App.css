@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-image: url(../public/glassesImage/background.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.title {
+  background-color: #3f3f3f69;
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.content {
+  position: relative;
+}
+
+.model {
+  width: 200px;
+  height: auto;
+}
+
+.currentGlasses {
+  width: 120px;
+  height: auto;
+  position: absolute;
+  top: 165px;
+  left: 324px;
+}
+
+.listGlasses{
+  margin: 100px;
+  text-align: center;
+  background-color: black;
+}
+
+.listGlasses img{
+  width: 120px;
+  height: auto;
+  margin: 10px;
+  cursor: pointer;
+}
